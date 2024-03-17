@@ -1,8 +1,10 @@
+import Usuarios from '../views/usuario/UsuariosView.vue'
+
 const routes = [
     {
       path: '/usuarios',
-      name: 'rota de usuarios',
-      component: () => import('@/views/usuario/UsuariosView.vue')
+      name: 'Usuarios',
+      component: Usuarios
     }
   ]
   

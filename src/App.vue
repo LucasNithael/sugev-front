@@ -1,8 +1,9 @@
 <template>
-  <h1 class="bg-red-800">
-    Hello world!
-  </h1>
-  <p class="font-bold ">
-    Welcome to your Vue.js app!
-  </p>
+  <div>
+    <MainContent />
+  </div>
 </template>
+
+<script setup>
+   import MainContent from './components/MainContent.vue'
+</script>

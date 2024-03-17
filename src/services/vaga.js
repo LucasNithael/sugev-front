@@ -10,6 +10,7 @@ export const getVagaLista = async () => {
   };
   
  
+  
   export const getVagaDetalhe = async (id) => {
     try {
       const response = await api.get(`/vaga/${id}/`);
